@@ -1,2 +1,2 @@
 # Portifflio
-Portfolio Website with Bootstrap - HTML/CSS 
+Complete portfolio website with bootstrap using HTML and CSS

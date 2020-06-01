@@ -1,0 +1,313 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+@import url(./variables.css);
+body{
+  background-color: ;
+}
+/*================startnav=========================== */
+.header .main-menu .navbar .navbar-brand{
+  padding: 10px;
+  font-family:"Roboto";
+  font-weight: bold;
+  background-color: rgb(12, 7, 148);
+  color: #fff;
+  width: 132px;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  border: 3px solid transparent;
+}
+.header .main-menu .navbar {
+  padding: 1rem 15rem;
+}
+.header .main-menu .navbar .nav-item .nav-link{
+  text-transform: uppercase;
+  font-family:var(--roboto);
+  color: var(--title-color);
+  font-weight: 500;
+  padding: 1.5rem;
+}
+.header .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header .main-menu .navbar .nav-item .nav-link:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/*================end nav=========================== */
+
+/*================main site banner=========================== */
+.main-site .site-banner .site-title h3{
+  padding-top: 20%;
+  font-weight: 500;
+}
+.main-site .site-banner .site-title h3::after{
+  content: " ";
+  height: 2px;
+  width: 15vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+.main-site .site-banner .site-title h1{
+  font-size: 4rem;
+}
+.main-site .site-banner .site-title h4{
+  font-size: 1.7rem;
+}
+.main-site .site-banner .banner-img>img {
+  padding: 1rem 0px;
+  width: 80%;
+}
+
+/*================ end main site banner=========================== */
+/*================ about area=========================== */
+.about-img >img{
+  padding: 0rem 0px;
+  width: 85%;
+}
+.main-site .about-area{
+  padding: 8rem 5rem;
+}
+
+.main-site .about-area .about-title>span{
+  display: block;
+  font-size: normal;
+  font-weight: bold;
+  line-height: 40px;
+  font-family: var(--roboto);
+  letter-spacing: 18px;
+}
+.paragraph>p{
+  padding: .4rem 0px;
+
+}
+
+/*================end about area=========================== */
+/*================brand area=========================== */
+.main-site .brand-area{
+  padding: 1rem 4rem;
+  margin-bottom: 3rem;
+}
+.main-site .brand-area .first-row .col-lg-4{
+  display: flex;
+  justify-content: center;
+}
+.main-site .brand-area .first-row .col-lg-4>.single-brand{
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.2rem 0rem;
+  margin: .9rem 0;
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform .4s ease;
+}
+.main-site .brand-area .first-row .col-lg-4>.single-brand:hover{
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+.main-site .brand-area .first-row .col-lg-4>.single-brand:hover>img{
+  filter: brightness(0.12);
+}
+.main-site .brand-area .experience-area{
+  padding-left: 2rem;
+}
+.main-site .brand-area .experience-area span{
+  display: block;
+}
+.main-site .brand-area .experience-area .years-area{
+    background: url(../img/client-info-bg.png) no-repeat 35px 10px;
+    padding: 2rem 0;
+    width: 30rem;
+    height: 18rem;
+    padding-left: 9rem;
+    position: relative;
+}
+ .bg-panel{
+   position: absolute;
+   left: -190px; top: 0%;
+   background-color: #e029290a;
+   width: 400px;
+   height: 400px;
+   margin-left: 340px;
+   z-index: -1;
+}
+.main-site .brand-area .experience-area .years-area .years{
+  font-style: normal;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 70px;
+  font-family: var(--roboto);
+  color: var(--primary-color2);
+  z-index: 2;
+}
+.main-site .brand-area .experience-area .years-area h2>span{
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 22px;
+  font-family: var(--roboto);
+}
+.main-site .brand-area .experience-area .call-area{
+  padding-left: 10rem;
+}
+/*================end brand area=========================== */
+
+/*================service area=========================== */
+.main-site .service-area{
+  padding: 4rem 2rem;
+}
+
+.main-site .service-area .service-title{
+  padding: 0 8rem;
+}
+.main-site .service-area .service-title h2{
+  font-size: 35px;
+}
+.main-site .service-area .services{
+  background-color: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 2rem .2rem;
+  transition: box-shadow .7s ease;
+  cursor: pointer;
+}
+.main-site .service-area .services:hover{
+  box-shadow: var(--box-shadow);
+}
+/*================ end service area=========================== */
+/*================ project area=========================== */
+.main-site .project-area{
+  padding: 3rem 0;
+}
+.main-site .project-area .button-group button{
+  background-color: transparent;
+  border:none;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100px;
+  font-family: var(--roboto);
+  text-transform: uppercase;
+}
+.main-site .project-area .button-group button+button{
+  padding-left: 1rem;
+}
+.main-site .project-area .grid .our-project > .title h4{
+  font-family: var(--roboto);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+}
+.main-site .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/*================end project area=========================== */
+.main-site .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.main-site .about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.main-site .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.main-site .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.main-site .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.main-site .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.main-site .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.main-site .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+/* End About Me */
+
+/* Subscribe me */
+
+.main-site .subscribe-us-area .subscribe{
+    background: url(../img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.main-site .subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/ 30px var(--roboto);
+    color: whitesmoke;
+}
+
+.main-site .subscribe-us-area .subscribe .subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.main-site .subscribe-us-area .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.main-site .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+
+.main-site .subscribe-us-area .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+
+/* End subscribe me */
+
+/* Footer Area */
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/* End Footer */
